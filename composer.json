@@ -10,8 +10,7 @@
     "include-path": ["src/"],
     "autoload": {
       "classmap": [
-        "src/Google/Api/Ads/AdWords/Lib",
-        "src/Google/Api/Ads/Dfp/Lib"
+        "src/Google/Api/Ads/AdWords"
       ]
     },
     "minimum-stability": "dev"
