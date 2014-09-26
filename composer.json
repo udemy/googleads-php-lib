@@ -1,11 +1,11 @@
 {
-    "name": "googleads/googleads-php-lib",
-    "description": "Google Ads APIs Client Library for PHP (AdWords, Adx, and DFP)",
+    "name": "udemy/googleads-php-lib",
+    "description": "Google Ads APIs Client Library for PHP. Added Namespace to Logger class",
     "require": {
         "php": ">=5.2.0"
     },
     "type": "library",
-    "homepage": "https://github.com/googleads/googleads-php-lib",
+    "homepage": "https://github.com/udemy/googleads-php-lib",
     "license": "Apache-2.0",
     "include-path": ["src/"],
     "autoload": {
@@ -14,26 +14,5 @@
         "src/Google/Api/Ads/Dfp/Lib"
       ]
     },
-    "authors": [
-      {
-        "name": "Paul Matthews",
-        "role": "Developer"
-      },
-      {
-        "name": "Adam Rogal",
-        "role": "Developer"
-      },
-      {
-        "name": "Mat Scales",
-        "role": "Developer"
-      },
-      {
-        "name": "Vincent Tsao",
-        "role": "Developer"
-      },
-      {
-        "name": "Ray Tsang",
-        "role": "Developer"
-      }
-    ]
+    "minimum-stability": "dev"
 }

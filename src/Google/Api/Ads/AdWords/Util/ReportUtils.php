@@ -33,6 +33,8 @@ require_once dirname(__FILE__) . '/../../Common/Util/DeprecationUtils.php';
 require_once dirname(__FILE__) . '/../../Common/Util/Logger.php';
 require_once dirname(__FILE__) . '/../../Common/Util/XmlUtils.php';
 
+use GoogleAdsLogs\Logger as Logger;
+
 /**
  * A collection of utility methods for working with reports.
  * @package GoogleApiAdsAdWords

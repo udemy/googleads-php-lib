@@ -37,6 +37,7 @@ require_once 'Google/Api/Ads/Common/Util/SoapRequestXmlFixer.php';
 require_once 'Google/Api/Ads/Common/Util/XmlUtils.php';
 require_once 'Google/Api/Ads/Common/Util/DeprecationUtils.php';
 
+use GoogleAdsLogs\Logger as Logger;
 /**
  * An extension of the {@link SoapClient} class intended to prepare
  * the XML before making a request as well as perform any book-keeping on

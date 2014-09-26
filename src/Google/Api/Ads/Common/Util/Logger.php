@@ -45,6 +45,7 @@
  * @package GoogleApiAdsCommon
  * @subpackage Util
  */
+namespace GoogleAdsLogs;
 class Logger {
 
   /**
